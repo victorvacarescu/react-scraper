@@ -1,0 +1,32 @@
+.table-container {
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	overflow: hidden;
+  }
+  
+  .table {
+	width: 100%;
+	border-collapse: collapse;
+  }
+  
+  /* Style table headers */
+  .table th {
+	background-color: #f2f2f2;
+	text-align: left;
+	padding: 8px;
+  }
+  
+  /* Style table rows */
+  .table tr:nth-child(even) {
+	background-color: #f2f2f2;
+  }
+  
+  .table tr:nth-child(odd) {
+	background-color: #ffffff;
+  }
+  
+  /* Style table cells */
+  .table td {
+	text-align: left;
+	padding: 8px;
+  }
